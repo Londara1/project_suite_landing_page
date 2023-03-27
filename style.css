@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&family=Epilogue:wght@400;700&family=Hanken+Grotesk:wght@500;700&family=Plus+Jakarta+Sans:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Epilogue';
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: #FAF8F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    width: 100%;
+}
+
+.firstPart {
+    display: flex;
+    flex-direction: column;
+    margin: 24px 16px 0px 16px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 80px;
+}
+
+.buttonTop {
+    border: 1px solid #172239;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.14px;
+    color: #172339;
+    padding: 12px 16px;
+    cursor: pointer;
+}
+
+.intro{
+    margin-top: 56px;
+}
+
+.line {
+    width: 150px;
+    margin-left: 160px;
+}
+
+.heading {
+    font-weight: 700;
+    color: #172339;
+    font-size: 38px;
+    line-height: 44px;
+}
+
+.spanHeading {
+    font-weight: 400;
+}
+
+.paragraph {
+    margin-top: 32px;
+    width: 343px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.0888889px;
+    color: #49566D;
+}
+
+.buttonBottom {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    color: #FAF8F6;
+    background: #172339;
+    border-radius: 6px;
+    border: none;
+    padding: 15px 32px;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+.phoneImageMobile {
+    margin-top: 56px;
+    width: 343px;
+}
+
+.infoNumbers {
+    display: grid;
+    grid-template-columns: repeat(1, 30%);
+    justify-content: center;
+    margin-top: 56px;
+}
+
+.infoHeading {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #172339;
+}
+
+.infoParagraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 2.5px;
+    color: #49566D;
+}
+
+.infoMargin {
+    margin-top: 32px;
+}
+
+.about {
+    border-radius: 15px;
+    background-color: #172339;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 220px;
+}
+
+.curvedLine {
+    width: 50px;
+    margin-top: 40px;
+}
+
+.aboutText {
+    text-align: center;
+}
+
+.secondPartHeading {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.416667px;
+    color: #FAF8F6;
+    margin-top: 37px;
+}
+
+.spanWhite {
+    font-weight: 700;
+}
+
+.secondPartParagraph {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.09px;
+    color: #F3EDE7;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 40px;
+}
+
+.secondPartName {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    color: #FAF8F6;
+    margin-top: 40px;
+}
+
+.secondPartStatus {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2.5px;
+    color: #F3EDE7;
+    padding-bottom: 64px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+    height: 286px;
+    background-color: #F3EDE7;
+}
+
+.logoMargin {
+    margin-right: 0;
+    margin-top: 56px;
+}
+
+.footerParagraph {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.0833333px;
+    color: #49566D;
+    margin-top: 33px;
+}
+
+.social {
+    display: flex;
+    margin-top: 33px;
+    column-gap: 28px;
+}
+
+.jeremyImage {
+    margin-top: -175px;
+}
+
+.blurImage {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .firstPart {
+        margin: 40px 40px 0px 40px;
+        background: url(./assets/image-hero-portrait.webp);
+        background-repeat: no-repeat;
+        background-size: 281px 482px;
+        background-position: bottom 171px right;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+
+    .phoneImageMobile {
+        display: none;
+    }
+
+    .intro {
+        margin-top: 125px;
+    }
+
+    .line {
+        width: 230px;
+        margin-left: 225px;
+    }
+
+    .heading {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 64px;
+        letter-spacing: -0.777778px;
+        color: #172339;
+    }
+
+    .buttonTop {
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: -0.16px;
+        padding: 11px 24px;
+    }
+
+    .blurImage {
+        display: block;
+        margin: auto;
+        margin-top: -157px;
+    }
+
+    .paragraph, .buttonBottom {
+        margin-top: 40px;
+    }
+
+    .infoNumbers {
+        margin-top: 250px;
+        justify-content: space-evenly;
+        grid-template-columns: repeat(3, 25%);
+        margin-top: 128px;
+    }
+
+    .jeremyImage {
+        z-index: 1;
+    }
+
+    .infoMargin {
+        margin-top: 0px;
+    }
+
+    .secondPart {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 72px 40px 80px 40px;
+        width: 100%;
+        z-index: -1;
+        height: 680px;
+        align-items: flex-end;
+        margin-top: -60%;
+    }
+
+    .logoMargin, .footerParagraph, .social, .thirdPart {
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+
+    .about {
+        background-image: url(./assets/pattern-blur.svg);
+        background-repeat: no-repeat;
+        background-position: 50% -150px;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+}
+
+@media (min-width: 1440px) {
+    .firstPart {
+        margin: 50px 165px 0px 165px;
+        background: url(./assets/image-hero-portrait@2x.png) no-repeat;
+        background-size: 350px 600px;
+        background-position-x: 475px ;
+        background-position-y: 173px;
+        display: flex;
+    }
+
+    .buttonTop:hover {
+        background: #172339;
+        color: #FAF8F6;
+    }
+
+    .buttonBottom:hover {
+        background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
+    }
+
+    .line {
+        width: 300px;
+        margin-left: 285px;
+    }
+
+    .heading {
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 78px;
+        letter-spacing: -1px;
+    }
+
+    .paragraph {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .buttonBottom {
+        margin-top: 52px;
+    }
+
+    .intro {
+        display: flex;
+        justify-content: space-between;
+        height: 600px;
+        margin-top: 113px;
+
+    }
+
+    .infoNumbers {
+        margin-top: 0px;
+        grid-template-columns: 100%;
+    }
+
+    .infoHeading {
+        text-align: right;
+    }
+
+    .infoParagraph {
+        text-align: right;
+    }
+
+    .about {
+        margin-left: 165px;
+        margin-right: 165px;
+        display: flex;
+        flex-direction: row;
+        padding-left: 120px;
+        padding-right: 125px;
+        height: 545px;
+        background-position: 5% 20px;
+    }
+
+    .jeremyImage {
+        width: 360px;
+        height: 590px;
+        margin-top: -45px
+    }
+
+    .curvedLine {
+        margin-top: 0;
+        margin-bottom: 150px;
+        margin-left: 35px;
+        margin-right: 52px;
+    }
+
+    .aboutText{
+        text-align: left;
+    }
+
+    .secondPartHeading {
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -0.5px;
+    }
+
+    .secondPartParagraph {
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 20px;
+        line-height: 35px;
+        letter-spacing: 0.1px;
+        width: 350px;
+    }
+
+    .secondPartStatus {
+        padding-bottom: 0;
+    }
+
+    footer {
+        margin-top: -18%;
+        height: 464px;
+    }
+
+    .social img:hover {
+        opacity: 0.5;
+    }
+
+}
