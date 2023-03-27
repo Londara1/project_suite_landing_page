@@ -300,10 +300,9 @@ footer {
         justify-content: space-between;
         padding: 72px 40px 80px 40px;
         width: 100%;
-        z-index: -1;
         height: 680px;
         align-items: flex-end;
-        margin-top: -60%;
+        margin-top: -450px;
     }
 
     .logoMargin, .footerParagraph, .social, .thirdPart {
@@ -317,8 +316,8 @@ footer {
         background-position: 50% -150px;
         margin-right: 40px;
         margin-left: 40px;
+        z-index: 1;
     }
-
 }
 
 @media (min-width: 1440px) {
@@ -370,16 +369,19 @@ footer {
     }
 
     .infoNumbers {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         margin-top: 0px;
-        grid-template-columns: 100%;
+        gap: 63px;
     }
 
     .infoHeading {
-        text-align: right;
+        text-align: left;
     }
 
     .infoParagraph {
-        text-align: right;
+        text-align: left;
     }
 
     .about {
@@ -437,5 +439,4 @@ footer {
     .social img:hover {
         opacity: 0.5;
     }
-
 }
