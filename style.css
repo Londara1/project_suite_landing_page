@@ -95,6 +95,7 @@ header {
 .phoneImageMobile {
     margin-top: 56px;
     width: 343px;
+    align-self: center;
 }
 
 .infoNumbers {
@@ -313,9 +314,11 @@ footer {
     .about {
         background-image: url(./assets/pattern-blur.svg);
         background-repeat: no-repeat;
+        justify-content: center;
         background-position: 50% -150px;
         margin-right: 40px;
         margin-left: 40px;
+        position: relative;
         z-index: 1;
     }
 }
@@ -389,8 +392,10 @@ footer {
         margin-right: 165px;
         display: flex;
         flex-direction: row;
+        align-self: center;
         padding-left: 120px;
         padding-right: 125px;
+        width: 1150px;
         height: 545px;
         background-position: 5% 20px;
     }
